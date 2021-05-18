@@ -1,0 +1,38 @@
+name: GitHub Master javanet97
+  push:niveles premium
+    branches: Master javanet97
+  solicitud de extracción: []_artículos/es/index.html
+trabajos:nombre: Bootstrap
+      ejecutar: script / bootstrap
+
+  pruebas:
+    runs-on: ubuntu-latest ubuntu-más reciente
+    steps:nuevo 
+    - name: Cambiar el repositorio de GIth
+      uses: actions/checkout@v2.3.4
+      uses: actions/checkout@v2.3.4
+
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1.1.3
+      usos: actions/setup-ruby@v1.1.3
+
+    - name: Configurar nodo
+      uses: actions/setup-node@v2.1.
+
+    - name: Restore bundler cache
+      uses: actions/cache@v2.1.5
+      with:
+        ruta: vendedor / gemas
+        clave: $ {{runner.os}} - gemas - $ {{hashFiles ('** / Gemfile.lock')}}
+        restaurar
+      usos: actions/cache@v2.1.5
+      con:
+        ruta: vendedor / gemas
+        clave: $ {{runner.os}} - gemas - $ {{hashFiles ('** / Gemfile.lock')}}
+        para restaurar
+    - nombre: Bootstrap
+      ejecutar: script / bootstrap
+nombre: Bootstrap
+      ejecutar: script / bootstrap
+
+    
